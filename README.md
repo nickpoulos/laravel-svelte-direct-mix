@@ -17,11 +17,6 @@ npm install nickpoulos/laravel-svelte-direct-mix
 
 ## Usage
 
-### Install Laravel Svelte Direct JavaScript
-```bash
-npm install laravel-svelte-direct
-````
-
 ### Configure Laravel Mix
 webpack.mix.js
 ```javascript
@@ -57,15 +52,14 @@ Setting `componentMode: true` will build your components as typical Svelte compo
 
 Setting `componentMode: false` will build your components as WebComponents/customElements.  Doing so has certain caveats, including shadowDom, and some other quirks. For more information
 
-`loaderOptions` gives full control over the Svelte Loader for Webpack. For more options check the package below: 
-[Svelte Loader](https://github.com/sveltejs/svelte-loader)
+`loaderOptions` gives full control over the Svelte Loader for Webpack. For more options check the [Svelte Loader](https://github.com/sveltejs/svelte-loader) package. 
+
 
 For more information regarding Svelte and WebComponents, see the following resources:
 
 - [https://dev.to/silvio/how-to-create-a-web-components-in-svelte-2g4j](https://dev.to/silvio/how-to-create-a-web-components-in-svelte-2g4j)
 - [https://dev.to/richharris/why-i-don-t-use-web-components-2cia](https://dev.to/silvio/how-to-create-a-web-components-in-svelte-2g4j)
 - Special shoutout to [Crisward](https://github.com/crisward/svelte-tag) and the awesome bootstrap code they wrote (provides the foundation for our boostrap code)
-
 
 
 ### Write Your Svelte Components
