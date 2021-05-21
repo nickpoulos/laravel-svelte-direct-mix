@@ -1,0 +1,22 @@
+{
+  "name": "laravel-svelte-direct-mix",
+  "version": "0.4.0",
+  "description": "A Laravel Mix extension for compiling Svelte components directly.",
+  "keywords": [
+    "laravel mix",
+    "mix",
+    "svelte",
+    "svelte-direct"
+  ],
+  "main": "src/index.js",
+  "author": {
+    "name": "Nick Poulos",
+    "email": "nick@nickpoulos.info",
+    "role": "Author"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/nickpoulos/laravel-svelte-direct-mix",
+  "peerDependencies": {
+    "laravel-mix": "^6.0"
+  }
+}
