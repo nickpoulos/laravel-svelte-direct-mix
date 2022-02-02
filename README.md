@@ -31,7 +31,7 @@ mix.svelteDirect('resources/js/Components', 'public/js');
 webpack.mix.js
 ```javascript
 const mix = require('laravel-mix');
-require('laravel-svelte-direct')
+require('laravel-svelte-direct-mix')
 
 mix.svelteDirect(
     'resources/js/Components',
